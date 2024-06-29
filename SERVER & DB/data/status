@@ -1,0 +1,14 @@
+// module.exports = [
+//   "ממתין",
+//   "בטיפול",
+//   "הסתיים"
+// ]
+// // db.Status.insertOne(
+// //   {
+// //     _id:1,
+// //     typeOfStatus: [
+// //       "waiting",
+// //       "inTreatment",
+// //       "Ended"
+// //     ]
+// //   })

@@ -1,0 +1,38 @@
+// priority
+// module.exports=[
+//     {
+//       code: "LOW",
+//       name: "נמוכה"
+//     },
+//     {
+//       code: "MEDIUM",
+//       name: "בינונית"
+//     },
+//     {
+//       code: "HIGH",
+//       name: "גבוהה"
+//     },
+//     {
+//       code: "CRITICAL",
+//       name: "קריטית"
+//     }
+//   ]
+  db.Priority.insertMany([
+    {
+    _id:1,
+    priorityName:"low"
+    },
+    {
+    _id:2,
+    priorityName:"medium"
+    },
+    {
+    _id:3,
+    priorityName:"high"
+    },
+    {
+    _id:4,
+    priorityName:"critical"
+    }
+    ])
+    

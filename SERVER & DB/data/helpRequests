@@ -1,0 +1,87 @@
+// module.exports = [
+//   {
+//     id: 1,
+//     location_code: "LOC123",
+//     description: "תיאור הבעיה כאן...",
+//     contact_phone: "050-1234567",
+//     status: "ממתין",
+//     people_trapped: 2,
+//     priority_code: "HIGH",
+//     volunteer_code: 1
+//   },
+//   {
+//     id: 2,
+//     location_code: "LOC456",
+//     description: "תיאור הבעיה כאן...",
+//     contact_phone: "052-9876543",
+//     status: "בטיפול",
+//     people_trapped: 1,
+//     priority_code: "LOW",
+//     volunteer_code: 2
+//   },
+//   {
+//     id: 3,
+//     location_code: "LOC124",
+//     description: "תיאור הבעיה כאן...",
+//     contact_phone: "050-1234567",
+//     status: "ממתין",
+//     people_trapped: 2,
+//     priority_code: "HIGH",
+//     volunteer_code: 3
+//   },
+//   {
+//     id: 4,
+//     location_code: "LOC789",
+//     description: "תיאור הבעיה כאן...",
+//     contact_phone: "052-9876543",
+//     status: "בטיפול",
+//     people_trapped: 1,
+//     priority_code: "LOW",
+//     volunteer_code: 4
+//   }
+// ]
+
+db.HelpRequests.insertMany([
+  {
+    _id: 1,
+    Location: { location_code: "LOC123" },
+    problem_description: "The car does not start, we are stuck in the middle of the road",
+    contact_phone: "0587556565",
+    Status: { typeOfStatus: "inTreatment" },
+    number_of_people_stuck: 4,
+    Priority: { priorityName: "critical" },
+    Volunteers: { id: 2 }
+  },
+  {
+    _id: 2,
+    Location: { location_code: "LOC456" },
+    problem_description: "A car slid to the side of the road and the doors were locked",
+    contact_phone: "0583297897",
+    Status: { typeOfStatus: "waiting" },
+    number_of_people_stuck: 3,
+    Priority: { priorityName: "medium" },
+    Volunteers: { id: 1 }
+  },
+  {
+    _id: 3,
+    Location: { location_code: "LOC123" },
+    problem_description:  "A baby is locked in a car",
+    contact_phone: "0587556565",
+    Status: { typeOfStatus: "waiting" },
+    number_of_people_stuck: 1,
+    Priority: { priorityName: "critical"},
+    Volunteers: { id: 3 }
+  },
+  {
+    _id: 4,
+    Location: { location_code: "LOC789" },
+    problem_description: "The vehicle does not start",
+    contact_phone: "0587556565",
+    Status: { typeOfStatus: "inTreatment" },
+    number_of_people_stuck: 6,
+    Priority: { priorityName: "high" },
+    Volunteers: { id: 4 }
+  }
+   ])
+
+

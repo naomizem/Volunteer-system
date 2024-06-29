@@ -1,0 +1,39 @@
+// module.exports=[
+//     {
+//       code: "LOC123",
+//       name: "תל אביב, שכונת הצפון"
+//     },
+//     {
+//       code: "LOC456",
+//       name: "ירושלים, מרכז העיר"
+//     }
+//   ]
+//   // db.Location.insertMany([
+//   //   {
+//   //   _id:1,
+//   //   locationCode:"LOC123",
+//   //   location:"Jerusalem"
+//   //   },
+//   //   {
+//   //   _id:2,
+//   //   locationCode:"LOC456",
+//   //   location:"Road 6"
+//   //   },
+//   //   {
+//   //   _id:3,
+//   //   locationCode:"LOC145",
+//   //   location:"Route 9"
+//   //   },
+//   //   {
+//   //   _id:4,
+//   //   locationCode:"LOC789",
+//   //   location:"Tel Aviv Central Station"
+//   //   },
+//   //   {
+//   //    _id:5,
+//   //   locationCode:"LOC765",
+//   //   location:"Airport parking"
+//   //   }
+//   //   ])
+    
+    
